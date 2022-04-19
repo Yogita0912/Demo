@@ -13,7 +13,7 @@ public class ABCD
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.redbus.in/");
-		driver.manage().window().maximize();
+		driver.manage().window().minimize();
 		
 		String Title=driver.getTitle();
 		System.out.println(Title);
